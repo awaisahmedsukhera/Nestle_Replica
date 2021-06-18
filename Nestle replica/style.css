@@ -1,0 +1,284 @@
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.navbar {
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    
+  }
+  ul { 
+    margin: 10px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: auto;
+    text-align: center;
+  }
+  li { 
+    display: table-cell; 
+    position: relative; 
+    /* padding: 1px 0; */
+    box-sizing: border-box;
+  }
+  a {
+    color: #4c4c4c;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    /* display: block; */
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: #E3167F;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 10px;
+      }
+  }
+  
+.about .text h6 {
+    color:black;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    
+}
+.container {
+    position: relative;
+    text-align:left;
+    color: white;
+      }
+    
+      .text{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+ 
+        
+      }
+
+
+
+
+
+.glass-one
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.glass-two
+{
+    width: 40rem;
+    height: 40rem;
+}
+
+.glass-two img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-right
+{
+  background-color: aliceblue;
+    color:#023f97;
+    text-align: left;
+    width: 40rem;
+    display: flex;
+    
+   
+}
+
+.content-left
+{
+    padding-top: 3.5rem;
+    padding-left: 3.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.content-right
+{
+    padding-top: 3.5rem;
+    padding-left: 3.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+   .color-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .paragraph{
+       text-align: center;
+       color:#4c4c4c;
+   }
+
+
+   .text-center {
+    text-align: center;
+    color:black;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 80rem)
+}
+
+.service {
+  background:#4C85C0;
+  width: 80%;
+  margin: auto;
+
+}
+
+.service .one {
+  background-color:#4C85C0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.50rem 0.50rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+button{
+  cursor: pointer;
+}
+/* Pure Life Section */
+.pure-life {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.pure-img {
+  width: 1000px;
+}
+.pure-text {
+   width: 700px;
+   background-color: #4C85C0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.pure-text h6 { 
+   text-align: top;
+   font-size: 1rem;
+ letter-spacing: 1.2px;
+}
+.pure-text h3 { 
+   text-align:left;
+   letter-spacing: 1.8px;
+   
+}
+.pure-text a { 
+   background-color: #F04CA5;
+   text-decoration: none;
+   padding: 10px 50px;
+   color: white;
+   font-size: 1.5rem; 
+   
+}
+/* occasion */
+.occasion {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.occasion-img {
+  width: 1000px;
+}
+.occasion-text {
+   width: 700px;
+   background-color: #F04CA5;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.occasion-text h6 { 
+   text-align: top;
+   font-size: 1rem;
+ letter-spacing: 1.2px;
+}
+.occasion-text h3 { 
+   text-align:left;
+   letter-spacing: 1.8px;
+   
+}
+.occasion-text a { 
+   background-color: #F04CA5;
+   text-decoration: none;
+   padding: 10px 40px;
+   color: white;
+   font-size: 1.5rem; 
+}
+.occasion .button{
+  border-radius: 10px;
+  color: white;
+  background-color: #E9007F;
+}
+.footer{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  align-items: flex-start;
+  background-image: url(footerimg.png);
+  
+
+}
+
+.footer .one {
+ 
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem 0.25rem;
+  
+  color: white;
+}
+.footer p{
+  color: white;
+  text-align: center;
+}
+button{
+  cursor: pointer;
+}
+.fab{
+  color: white;
+width: 20px;
+
+}
